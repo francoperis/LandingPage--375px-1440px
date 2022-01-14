@@ -111,7 +111,7 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-family:var(--font-family-header);
     height: 80%;
-    margin: 20px;
+    margin: 40px 20px;
 }
 .container__grow img{
     width: 300px;
@@ -131,4 +131,71 @@ body{
     font-weight: 400;
     color: var(--neutral--color--grayishblue);
 }
+/*
+.bannerRelative__footer{
+    height: 100px;
+    width: 290px;
+    padding: 40px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    text-align: center;
+}
+*/
+.container__footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:var(--neutral--color--darkcyan);
+    font-family: var(--font-family-body);
+}
 
+.container__footer--ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+   
+}
+
+.container__footer--ul li{
+    display: flex;
+}
+
+.logoFooter {
+    height: auto;
+    width: 200px;
+    padding: 35px 3px;
+}
+
+.classIcon{
+    width: 20px;
+    height: 20px;
+}
+.container__footer--ul li{
+    width: 100%;
+    margin: 15px 0 15px 5px
+}
+.container__footer--ul li p{
+    color: #ddd;
+    margin: 0 0 0 15px;
+    font-size: 15px;
+   
+}
+
+.container__footer--ulAbout{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5px 0 0 0;
+}
+
+.container__footer--ulAbout li{
+    color: #ddd;
+    margin: 0 0 0 5px;
+}
