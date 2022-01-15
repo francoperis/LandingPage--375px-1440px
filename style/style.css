@@ -178,7 +178,7 @@ body{
 }
 .container__footer--ul li{
     width: 100%;
-    margin: 15px 0 15px 5px
+    margin: 15px 0 ;
 }
 .container__footer--ul li p{
     color: #ddd;
